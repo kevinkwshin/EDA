@@ -89,3 +89,39 @@ ax[2].axis('off')
 supercropboy = cv2.imread('../input/train_images/698d6e422a80.png')
 ax[3].imshow(cv2.cvtColor(supercropboy, cv2.COLOR_BGR2RGB))
 ax[3].axis('off')
+
+fig, ax = plt.subplots(nrows=1, ncols=4, figsize=(20,4))
+
+spaceboy = circle_crop('../input/train_images/1df0a4c23c95.png')
+ax[0].imshow(cv2.cvtColor(spaceboy, cv2.COLOR_BGR2RGB))
+ax[0].axis('off')
+
+cropboy = circle_crop('../input/train_images/0a1076183736.png')
+ax[1].imshow(cv2.cvtColor(cropboy, cv2.COLOR_BGR2RGB))
+ax[1].axis('off')
+
+squareboy = circle_crop('../input/train_images/0e3572b5884a.png')
+ax[2].imshow(cv2.cvtColor(squareboy, cv2.COLOR_BGR2RGB))
+ax[2].axis('off')
+
+supercropboy = circle_crop('../input/train_images/698d6e422a80.png')
+ax[3].imshow(cv2.cvtColor(supercropboy, cv2.COLOR_BGR2RGB))
+ax[3].axis('off')
+
+fig, ax = plt.subplots(nrows=1, ncols=4, figsize=(20,4))
+
+spaceboy = circle_crop_v2('../input/train_images/1df0a4c23c95.png')
+ax[0].imshow(cv2.cvtColor(spaceboy, cv2.COLOR_BGR2RGB))
+ax[0].axis('off')
+
+cropboy = circle_crop_v2('../input/train_images/0a1076183736.png')
+ax[1].imshow(cv2.cvtColor(cropboy, cv2.COLOR_BGR2RGB))
+ax[1].axis('off')
+
+squareboy = circle_crop_v2('../input/train_images/0e3572b5884a.png')
+ax[2].imshow(cv2.cvtColor(squareboy, cv2.COLOR_BGR2RGB))
+ax[2].axis('off')
+
+supercropboy = circle_crop_v2('../input/train_images/698d6e422a80.png')
+ax[3].imshow(cv2.cvtColor(supercropboy, cv2.COLOR_BGR2RGB))
+ax[3].axis('off')
